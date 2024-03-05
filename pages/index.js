@@ -3,3 +3,7 @@ function Home() {
 }
 
 export default Home;
+
+function test() {
+  console.log("test");
+}
