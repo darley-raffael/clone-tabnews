@@ -1,4 +1,6 @@
-test("Request api /status should be 200", async () => {
-  const response = await fetch("http://localhost:3000/api/v1/status");
-  expect(response.status).toBe(200);
+describe("Request api /status", () => {
+  test("Request api /status should be 200", async () => {
+    const response = await fetch("http://localhost:3000/api/v1/status");
+    expect(response.status).toBe(200);
+  });
 });
